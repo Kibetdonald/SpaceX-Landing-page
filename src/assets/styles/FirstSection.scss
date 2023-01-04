@@ -1,0 +1,80 @@
+.FirstSection {
+  margin: auto;
+  z-index: 100;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.PlayCircle {
+  color: #fff;
+  font-size: 52px;
+}
+
+.headerText {
+  font-size: 32px;
+  color: #fff;
+  margin-top: 1%;
+}
+
+.statistics {
+  display: flex;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  width: 30%;
+  margin: auto;
+  justify-content: space-between;
+  h5{
+    line-height: normal;
+  }
+  p{
+    font-size: 15px;
+    color: #333;
+    line-height: normal;
+  }
+}
+
+.statistics1 {
+  margin-left: 20px;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+.circle {
+  width: 30px;
+  height: 30px;
+  // line-height: 20px;
+  border-radius: 50%;
+  font-size: 12px;
+  color:#000;
+  text-align: center;
+  background: #fff;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.makeitcount{
+  display: flex;
+  color: #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+}
+.makeitcount1{
+  display: flex;
+  p{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 28px;
+    width: "60%" !important;
+  }
+}
